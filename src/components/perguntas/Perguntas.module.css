@@ -1,0 +1,8 @@
+.Form {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+    font-family: "Abhaya Libre", serif;
+    font-size: 24px;
+}

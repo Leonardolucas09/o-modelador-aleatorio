@@ -1,0 +1,10 @@
+.Header {
+    color: var(--branco);
+    background-color: var(--vermelho);
+    
+    padding: 1.2rem;
+    text-align: center;
+
+    font-family: "Aladin", serif;
+    font-size: 24px;
+}

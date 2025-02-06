@@ -1,0 +1,119 @@
+/* ---> CONTAINER <--- */
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: var(--amarelo);
+  /* border: 2px solid black; */
+  border-radius: 28px;
+  
+  font-family: "Abhaya Libre", serif;
+  font-weight: 800;  
+  
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+
+  padding: 2rem;
+}
+
+/* ---> CAMPO DE INPUT <--- */
+
+.CampoHome {
+  display: flex;
+  gap: 4rem;
+}
+
+.LabelCampo {
+  display: flex;
+  text-align: left;
+
+  font-size: 24px;
+}
+
+.CampoTexto {
+  display: flex;
+  padding: 1.2rem;
+  height: 4vh;
+  width: 24vw;    
+
+  border: 4px solid var(--vermelho);
+  border-radius: 12px;
+
+  font-family: "Abhaya Libre", serif;
+  font-size: 24px;
+
+  transition-duration: 0.5s;
+  outline: none;
+
+  background-color: rgba(245, 233, 233, 50%);
+}
+
+.CampoTexto::placeholder {
+  color: var(--preto);
+  opacity: 70%;
+}
+  
+.CampoTexto:focus {
+  border: 4px solid var(--preto);
+}
+
+/* ---> BOTÕES <--- */
+
+.Botoes {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+  gap: 3rem;
+}
+
+/* ---> RESULTADOS <--- */
+
+.Resultados {
+  display: flex;
+  gap: 4rem;
+
+  font-size: 24px;
+}
+
+.ContainerResultados {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 1rem; */
+
+  line-height: 160%;  
+  width: 24vw;
+
+  margin-top: 0.2rem;
+  padding-left: 0.5rem;
+
+  font-weight: 500;   
+  min-height: 5.25vh;
+
+  background-color: rgba(245, 233, 233, 50%);
+  border: 4px solid var(--vermelho);
+  border-radius: 12px;
+}
+
+.AdicionadoTitulo, .SorteadoTitulo {
+  display: flex;
+  text-align: left;
+
+  font-weight: 800;
+}
+
+.SorteadoTitulo {
+  color: var(--lilas);
+}
+
+.PersonagemItem {
+  padding-right: 14px;
+  text-align: center;
+}
+
+/* ----------------- */
+
+

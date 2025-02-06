@@ -1,0 +1,40 @@
+.Botao {
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem 1.2rem;
+
+    font-family: "Abhaya Libre", serif;
+    font-weight: 800;  
+    font-size: 24px;
+}
+
+.Botao[tipo="primario"] {
+    background-color: var(--vermelho);
+    color: var(--branco);
+
+    transition-duration: 0.5s;
+}
+
+.Botao[tipo="primario"]:hover {
+    background-color: var(--branco);
+    color: var(--vermelho);
+}
+
+.Botao[tipo="secundario"] {
+    background-color: var(--branco);
+    color: var(--vermelho);
+
+    transition-duration: 0.5s;
+}
+
+.Botao[tipo="secundario"]:hover {
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+.Botao[tipo="terciario"] {
+    background: transparent;
+    color: var(--lilas);
+    text-decoration: underline;
+}
