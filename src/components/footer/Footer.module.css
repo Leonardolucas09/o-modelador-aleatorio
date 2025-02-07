@@ -1,0 +1,16 @@
+.Footer {
+    color: var(--branco);
+    background-color: var(--vermelho);
+    
+    padding: 1.2rem;
+    text-align: center;
+
+    font-family: "Aladin", serif;
+    font-size: 28px;    
+
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    /* transform: translate(-0%, -0%); */
+  }

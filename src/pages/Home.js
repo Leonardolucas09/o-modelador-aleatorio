@@ -26,7 +26,7 @@ function Home(props) {
         event.preventDefault();
         
         if (personagens.length < 3) {
-            alert("Adicione pelo menos 3 personagens para sorter.");
+            alert("Adicione pelo menos 3 personagens para sortear suas raças.");
             return;
         }
         
@@ -59,6 +59,15 @@ function Home(props) {
         setPersonagensEmbaralhados(novosPersonagens);
     }
 
+    const handleReiniciar = (event) => {
+        event.preventDefault();
+
+        setNome("");
+        setRaca("");
+        setPersonagens([]);
+        setPersonagensEmbaralhados([]);
+    }
+
     return(
         <section className={style.Container}>
             <form onSubmit={handleAdicionar}>
@@ -83,7 +92,8 @@ function Home(props) {
                     tipo={TIPO_BOTAO.SECUNDARIO}
                     onClick={handleSortear}/> 
                     <Botao tituloBotao="Reiniciar" 
-                    tipo={TIPO_BOTAO.TERCIARIO}/> 
+                    tipo={TIPO_BOTAO.TERCIARIO}
+                    onClick={handleReiniciar}/> 
                 </div>
             </form>
 
