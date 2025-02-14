@@ -1,12 +1,55 @@
-# Getting Started with Create React App
+# Inspiração
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esse projeto foi inspirado em um pequeno sistema de amigo secreto. Me inspirei no website feito tempos atrás em uma das aulas da Alura que na qual ao adicionar nomes de pessoas, ao clicar no botão de sortear era aleatorizado uma ordem de nomes que tiraram outros nomes da lista.
 
-## Available Scripts
+<p align="center">
+  
+A ideia do Modelador Aleatório surgiu pelo anime de Fantasia Medieval, [Dungeon Meshi](https://www.netflix.com/br/title/81564899), que na qual em determinado episódio os personagens tem suas raças fantasiosas trocadas entre outros membros do grupo.
 
-In the project directory, you can run:
+<p align="center">
+  <img alt="Arte do anime Dungeon Meshi. Contendo os quatro personagens principais sentados ao redor de uma panela funda cheia de comida em cima de uma fogueira. Atrás dos personagens há a garra de uma criatura avermelhada e de proporções gigantescas."  src="https://github.com/user-attachments/assets/359bda09-27e3-4adb-a67b-735ecbcd9db5">
+</p>
 
-### `npm start`
+# Sobre o Projeto
+
+Abaixo há as explicações sobre as Estruturas do Componente e Modo de Uso.
+
+## Modo de Uso
+
+Ao abrir o site você se depara com um pequeno formulário que no primeiro campo pede que você adicione o **Nome** de seu personagem e do outro lado a **Raça** de seu personagem;
+  
+Clicando no botão de **Adicionar**, é guardado aquelas informações de um **Personagem**. Lembre-se de que o mínimo valor aceitável são de três personagens;
+  
+Depois de adicionar seu grupo de personagens na lista, ao clicar no botão de **Sorteio** a ordem da lista de Nomes se manterá a mesma, mas as raças serão embaralhadas;
+  
+Você ainda pode adicionar mais personagens mesmo depois de ter sorteado, se quiser limpar todos os campos basta clicar no botão Reiniciar.
+
+_Por exemplo:_
+- Adicionamos uma lista de 4 personagens, a cada Nome e Raça inseridos o botão de Adicionar é clicado. Nossa lista é composta pelos personages:
+
+| Nome          | Raça          |
+| ------------- | ------------- |
+| Aragorn       | Homem         |
+| Legolas       | Elfo          |
+| Gimli         | Anão          |
+| Gandalf       | Istari        |
+
+- Clicando no botão de Sortear logo após termos criado nossa lista inicial, podemos ter o seguinte resultado:
+
+| Nome          | Raça          |
+| ------------- | ------------- |
+| Aragorn       | Anão          |
+| Legolas       | Istari        |
+| Gimli         | Homem         |
+| Gandalf       | Elfo          |
+
+- E como dito anteriormente, podemos clicar no botão de Reiniciar para limpar a lista ou seguir adicionando e sorteando mais personagens.
+
+<p align="center">
+  <img alt="Tela de captura do website 'O Modelador Aleatório'. Temos um cabeçalho vermelho escuro com o mesmo nome do site; seu conteúdo principal é composto por um contêiner amarelo claro com os dois campos de formulário lado a lado (campo de nome e raça); abaixo temos os três botões, sendo Adicionar, Sortear e Reiniciar; em seguida temos dois pequenos contêineres de resultados onde as informações de listas são guardadas e onde são sorteadas; por fim temos um rodapé da mesma cor que o cabeçalho contendo a tecnologia usada para criar o site, data criada e autor do projeto."  src="https://github.com/user-attachments/assets/702b3e1e-a86a-428a-8937-ecdb68e4342e">
+</p>
+
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
