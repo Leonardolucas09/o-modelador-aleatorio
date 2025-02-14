@@ -1,9 +1,6 @@
 import { useState } from "react";
 import Botao from "../components/botao/Botao";
 import { TIPO_BOTAO } from "../components/botao/Constantes";
-// import CampoTexto from "../components/campoTexto/CampoTexto";
-// import Resultados from "../components/resultados/Resultados";
-
 import style from './Home.module.css';
 
 function Home(props) {
@@ -38,13 +35,7 @@ function Home(props) {
             racasEmbaralhadas = [...racas];
             
             for(let i = racasEmbaralhadas.length - 1; i > 0; i--) {
-                // Escolhe aleatoriamente um índice entre 0 e i.
-                // Inicia-se no último índice e é decrementado até o 0.
                 const rAleatoria = Math.floor(Math.random() * (i + 1));
-                
-                // Uma variável temporária para atribuir o valor de racasEmbaralhadas[i]
-                // Substitui-se racasEmbaralhadas[i] por racasEmbaralhadas[rAleatoria]
-                // Substitui o valro de racasEmbaralhadas[rAleatoria] para racasEmbaralhadas[i]
                 const temp = racasEmbaralhadas[i];
                 racasEmbaralhadas[i] = racasEmbaralhadas[rAleatoria];
                 racasEmbaralhadas[rAleatoria] = temp;

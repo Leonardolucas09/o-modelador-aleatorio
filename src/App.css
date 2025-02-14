@@ -6,6 +6,11 @@
   --preto: #1E1E1E;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
