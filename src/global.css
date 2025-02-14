@@ -4,10 +4,10 @@
     box-sizing: border-box;
     /* text-align: center; */
   }
-  
+
 .bg {
   /* background-image: url("./assets/Background.png");  */
-  background-image: url("./assets/dungeon-meshi-delicious-in-dungeon.png"); 
+  background-image: url("./assets/Background.png"); 
   /* background-image: url("./assets/black-brick-wall.jpg");  */
   background-size: cover;
   background-repeat: no-repeat;

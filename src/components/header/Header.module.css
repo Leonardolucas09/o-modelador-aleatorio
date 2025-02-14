@@ -1,10 +1,17 @@
+@media (max-width: 768px) {
+    .Header {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+}
+
 .Header {
     color: var(--branco);
     background-color: var(--vermelho);
     
-    padding: 1.2rem;
+    padding: 1rem;
     text-align: center;
 
     font-family: "Aladin", serif;
-    font-size: 28px;
+    font-size: 2rem;
 }

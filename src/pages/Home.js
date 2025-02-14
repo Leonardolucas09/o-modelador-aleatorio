@@ -87,19 +87,22 @@ function Home(props) {
 
                 <div className={style.Botoes}>
                     <Botao tituloBotao="Adicionar" 
-                    tipo={TIPO_BOTAO.PRIMARIO}/> 
+                        tipo={TIPO_BOTAO.PRIMARIO}
+                    /> 
                     <Botao tituloBotao="Sortear" 
-                    tipo={TIPO_BOTAO.SECUNDARIO}
-                    onClick={handleSortear}/> 
+                        tipo={TIPO_BOTAO.SECUNDARIO}
+                        onClick={handleSortear}
+                    /> 
                     <Botao tituloBotao="Reiniciar" 
-                    tipo={TIPO_BOTAO.TERCIARIO}
-                    onClick={handleReiniciar}/> 
+                        tipo={TIPO_BOTAO.TERCIARIO}
+                        onClick={handleReiniciar}
+                    /> 
                 </div>
             </form>
 
             <div className={style.Resultados}>
                 <div>
-                    <p className={style.AdicionadoTitulo}>Personagens & Raças inclusos</p>
+                    <p className={style.AdicionadoTitulo}>Personagens</p>
                     <div className={style.ContainerResultados}>
                         {personagens.map((personagem, index) => (
                             <div key={index} className={style.PersonagemItem}>

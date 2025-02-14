@@ -1,3 +1,13 @@
+@media (hover: hover) {
+    .Botao[tipo="primario"]:hover {
+        opacity: 0.9;
+    }
+
+    .Botao[tipo="secundario"]:hover {
+        opacity: 0.9;
+    }
+}
+
 .Botao {
     border-radius: 25px;
     cursor: pointer;
@@ -16,9 +26,8 @@
     transition-duration: 0.5s;
 }
 
-.Botao[tipo="primario"]:hover {
-    background-color: var(--branco);
-    color: var(--vermelho);
+.Botao[tipo="primario"]:active {
+    opacity: 0.9;
 }
 
 .Botao[tipo="secundario"] {
@@ -29,8 +38,7 @@
 }
 
 .Botao[tipo="secundario"]:hover {
-    background-color: var(--vermelho);
-    color: var(--branco);
+    opacity: 0.9;
 }
 
 .Botao[tipo="terciario"] {
