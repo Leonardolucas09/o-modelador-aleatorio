@@ -1,6 +1,6 @@
 # Inspiração
 
-Esse projeto foi inspirado em um pequeno sistema de amigo secreto. Me inspirei no website feito tempos atrás em uma das aulas da Alura que na qual ao adicionar nomes de pessoas, ao clicar no botão de sortear era aleatorizado uma ordem de nomes que tiraram outros nomes da lista.
+Esse projeto foi inspirado em um pequeno sistema de amigo secreto. Me inspirei no website criado em uma das aulas da Alura, um site de Sorteio de Amigo Secreto.
 
 <p align="center">
   
@@ -12,7 +12,19 @@ A ideia do Modelador Aleatório surgiu pelo anime de Fantasia Medieval, [Dungeon
 
 # Sobre o Projeto
 
-Abaixo há as explicações sobre as Estruturas do Componente e Modo de Uso.
+Abaixo há as explicações sobre as Estruturas dos Componentes e Modo de Uso.
+
+## Tecnologias
+  <p display="inline-block">
+    <img width="48" src="https://github.com/user-attachments/assets/bea06e9f-7f40-4a2f-a505-550885327e9d" alt="logo-react"/>
+    <img width="48" src="https://github.com/user-attachments/assets/c76d91e4-a1d6-44b9-bbb6-95509a34b546" alt="logo-javascript"/>
+  </p>
+
+## Ferramentas de Desenvolvimento
+  <p display="inline-block">
+    <img width="48" src="https://img.icons8.com/?size=100&id=0OQR1FYCuA9f&format=png&color=000000" alt="logo-vs-code"/>
+    <img width="48" src="https://github.com/user-attachments/assets/065a4627-29f3-42b7-9e83-0762e24cbe85" alt="logo-figma"/>
+  </p>
 
 ## Modo de Uso
 
@@ -46,68 +58,21 @@ _Por exemplo:_
 - E como dito anteriormente, podemos clicar no botão de Reiniciar para limpar a lista ou seguir adicionando e sorteando mais personagens.
 
 <p align="center">
-  <img alt="Tela de captura do website 'O Modelador Aleatório'. Temos um cabeçalho vermelho escuro com o mesmo nome do site; seu conteúdo principal é composto por um contêiner amarelo claro com os dois campos de formulário lado a lado (campo de nome e raça); abaixo temos os três botões, sendo Adicionar, Sortear e Reiniciar; em seguida temos dois pequenos contêineres de resultados onde as informações de listas são guardadas e onde são sorteadas; por fim temos um rodapé da mesma cor que o cabeçalho contendo a tecnologia usada para criar o site, data criada e autor do projeto."  src="https://github.com/user-attachments/assets/702b3e1e-a86a-428a-8937-ecdb68e4342e">
+  <img alt="Tela de captura do website 'O Modelador Aleatório'. Temos um cabeçalho vermelho escuro com o mesmo nome do site; seu conteúdo principal é composto por um contêiner amarelo claro com os dois campos de formulário lado a lado (campo de nome e raça); abaixo temos os três botões, sendo Adicionar, Sortear e Reiniciar; em seguida temos dois pequenos contêineres de resultados onde as informações de listas são guardadas e onde são sorteadas; por fim temos um rodapé da mesma cor que o cabeçalho contendo a tecnologia usada para criar o site, data criada e autor do projeto."  src="https://github.com/user-attachments/assets/68bac2b6-3099-4912-8d27-4fc81f6c833d">
 </p>
 
+## Estruturas dos Componentes
 
+Como o projeto foi desenvolvido com React.js, foram criados três componentes, o Cabeçalho, Botões e Rodapé. 
+  
+- O componente dos Botões foi criado utilizando o método de _props_ para o nome dos botões e também a estilização de cada um dos três. Tendo sido criado um arquivo JavaScript chamado "Constantes" para dividir cada botão em tipos, sofrendo uma mudança visual em cada um dos botões.
+- O Cabeçalho e Rodapé tiveram a mesma implementação do código, apenas uma tag de título com sua estilização parecida, apenas com poucas mudanças em tamanho e espaçamento.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionalidade do Projeto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Já foi dito anteriormente que esse projeto funciona com base em um formulário, e é nessa seção em que será melhor explicado.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Iniciamos com variáveis atribuidas aos dois campos de escrita, chamadas "nome" e "raca" que ao ser adicionado uma série de caractéres e o clicão Adicionar for pressionado, as _strings_ serão atualizadas nas duas variáveis. Adicionar essas duas variáveis significa atribuir elas a uma variável única chamada "novoPersonagem". No fim dessa função é apagado os campos de escrita, para que o usuário adicione mais conteúdo a lista.
+- A próxima função é a de Sorteio, um evento que se inicia com uma condição de que é necessário haver no mínimo três personagens criados na lista. Duas variáveis foram criadas, a primeira sendo "racasEmbaralhadas" e a segunda "todosDiferentes" e sendo atribuido como _false_ 
+  - Um laço de repetição é criado com a condição de: **enquanto todos os personagens não tiverem suas raças diferentes** terá seu loop mantido. Dentro desse laço de repetição há mais um laço de **para o embaralhamento da quantidade de raças** em lista. Após o fim desses dois laços é enfim salvo essa nova lista. Fazendo com que ao clicar no botão de Sorteio seja renderizada a nova lista com as raças embaralhadas.
+- A última função é a de resetar tudo o que foi alterado e criado. Sendo a função mais simples, ela é invocada ao clicar no botão "Reiniciar", zerando todas as listas e variáveis.
